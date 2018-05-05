@@ -1,1 +1,18 @@
 # Jekyll
+> Transform plain text into static websites and blogs.
+### Install [jekyll](https://jekyllrb.com/docs/quickstart/)
+```
+# Install Jekyll and Bundler gems through RubyGems
+gem install jekyll bundler
+
+# Create a new Jekyll site at ./myblog
+jekyll new myblog
+
+# Change into your new directory
+cd myblog
+
+# Build the site on the preview server
+bundle exec jekyll serve
+
+# Now browse to http://localhost:4000
+```
